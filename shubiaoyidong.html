@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	*{margin: 0;padding: 0;}
+	body{width: 1000px;
+		height: 1000px;}
+	.one{
+		position: relative;
+
+	}
+	 .two{clear:both;
+   	position: absolute;
+   }
+		    
+	
+	.one img{width: 100px;
+		     height: 100px;
+		     float: left;
+		     margin-left: 20px;}
+
+
+	</style>
+</head>
+<body>
+
+	<div class="one">
+	<img src="jsimages/1.jpg" alt=""
+	></div>
+	<div class="one">
+	<img src="jsimages/2.jpg" alt=""
+	></div>
+	<div class="one">
+	<img src="jsimages/3.jpg" alt=""
+	></div>
+
+   
+<script src="js/jquery-1.11.1.js"></script>
+<script>
+$(".one img").mouseenter(function(){
+	$("body").append('<div class="two"> <img src="" alt=""></div>' )
+		var src=$(this).attr("src");
+		$(".two img").attr("src",src)
+
+})
+$(".one img").mousemove(function(event){
+	var X=event.pageX
+	var Y=event.pageY
+	$(".two").css({ "margin-left":X+20,
+		"margin-top":Y-100})
+	$(".one img").mouseleave(function(){
+		$(".two").remove();
+
+	})
+})
+</script>
+	
+</body>
+</html>

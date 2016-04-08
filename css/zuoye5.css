@@ -1,0 +1,212 @@
+*{margin: 0;padding: 0}
+
+#header
+#one{background-color:#3d3d3d;
+     height: 19px;}
+.top{width: 916px;
+		height: 19px;}
+#two{height: 111px;
+	background-image: url(../images/zuoye5mainbgc1_03.png);
+	background-repeat: repeat;
+
+}
+.mid{ width: 916px;
+	 height: 111px;
+	 border-bottom: 1px solid #c7d1d3;
+	 margin:0 auto;}
+.mid p {color:#ac2900;
+        font-size: 30px;
+        float: left;
+        padding-right: 202px;
+        line-height: 111px;
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif}
+
+.mid li{list-style: none;
+	   float: left;
+	   margin-right: 44px;
+	   line-height: 111px;
+	   font-size: 12px;
+	    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif
+       }
+.mid a{color:#ac2900;}       
+#three{
+	height: 271px;
+	background-image: url(../images/zuoye5bgc_03.png);
+	background-repeat: repeat;
+}
+
+.banner{
+	width: 916px;
+	height: 271px;
+	margin:0 auto;
+	position: relative;
+
+	}
+.bannerleft{
+	float: left;
+}
+.bannerleft h3 {
+	width: 331px;
+	height: 86px;
+	line-height: 86px;
+	font-size: 20px;
+	color:#fff99f;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif
+
+}
+.bannerleft p{
+	width: 478px;
+	font-size: 9px;
+	line-height: 13px;
+	color: white;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif
+}
+.bannerleft li{list-style:none;
+			float: left;
+			height: 31px;
+		    font-size: 12px;
+		    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif
+ }
+.bannerleft ul{margin-top: 80px;}
+.bannerleft li {color: white;}
+.bannerleft ul .bottom1{
+	background-image: url(../images/zuoye5bannerbottom11_03.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	width: 35px;
+	padding-left: 36px;
+	margin-right: 35px;
+	line-height: 35px;
+
+}
+.bannerleft ul .bottom2{
+	background-image: url(../images/zuoye5bannerbottom2_05.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+    padding-left: 36px;
+	line-height: 35px;
+}
+.bannerleft ul .bottom3{
+	background-image: url(../images/zuoye5bannerbottom1_07.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+  	padding-left: 36px;
+    line-height: 35px;
+    margin-left: 36px;
+}
+.bannerright{padding-bottom: 58px;}
+.bannerright .pict11{
+	display: block;
+	float:left;
+	position: absolute;
+	top: -14px;
+	right: -56px;
+}
+
+#four{
+	height: 302px;
+}
+#main{clear: both;
+	height: 302px;width: 916px;
+	margin:0 auto;
+}
+#main h3{margin-top: 35px;
+		margin-bottom:5px;
+		font-size: 13px;
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif } 
+
+.ptwo{
+	padding-left: 8px;
+	padding-top: 12px; 
+	line-height: 19px;
+	margin-top: 28px;
+	background-color:#f4f4f4;
+	border:1px solid #ecede8;
+	font-size: 8px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif
+}
+.ptwo a{color:#6d3923;}
+.colorsize{color:#c47767;}
+#main{
+	border-bottom:1px solid #ecede8;
+	color:#595764;
+}
+.mainleft{
+	height: 307px;
+	width: 299px;
+	float: left;
+	margin: right:32px;
+     }
+.mainleft p {border-top:1px solid #ecede8;
+	width: 275px;
+	font-size: 8px;
+	line-height: 21px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding-bottom: 28px;}
+.mainmid{
+	height: 307px;
+	width: 299px;
+	float: left;
+	margin: right:32px;
+	}
+.mainmid p{
+	padding-top: 20px;
+	padding-bottom: 28px;
+	border-top:1px solid #ecede8;
+	
+	width: 275px;
+	font-size: 8px;
+	line-height: 21px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif
+}
+.mainright{
+	height: 307px;
+	width: 299px;
+	float:left;
+	}
+.mainright p{
+	border-top:1px solid #ecede8;
+    padding-top: 20px;
+    width: 275px;
+	font-size: 8px;
+	line-height: 21px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif
+}
+.new{color: #8b3617}
+   p{font-size: 9px}
+#five{height: 75px;
+
+}
+#footer{margin: 0 auto;
+	
+	width: 916px;
+	height: 75px;
+	font-size: 9px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif
+
+	}
+#footer a{ color:#595764;}
+.footerleft{
+	width: 307px;
+	height: 75px;
+	float: left;
+    }
+ h6{margin-top: 21px;
+    font-size:2px;
+    }
+.footerright{
+	width: 302px;
+	height: 75px;
+	float: right;}
+.footerright .lastpic{
+	float: left;
+}
+.footerright img{
+	display: block;
+	float: right;
+	margin-top:-21px; 
+
+
+}
+
+

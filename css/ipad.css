@@ -1,0 +1,164 @@
+
+*{margin: 0;padding: 0;}
+#one{height: 510px;
+	
+}
+ #header{
+	width: 1078px;
+	height: 510px;
+	margin:0 auto;}
+ .top{
+ 	width: 1078px;
+ 	height: 80px;}
+ .top img{
+ 	margin-left: 70px;
+ 	float: left;}
+
+.top li{
+ 	list-style: none;
+ 	float: left;
+ 	margin-left: 42px;
+ 	line-height: 80px;
+ 	font-family: [Helvetica];
+ 	font-size:18px;
+ 	}
+ .banner{
+   width: 1078px;
+	height:430px;
+	 position:relative;}
+ .banner div{
+	float: left;}
+	
+.banner_left{
+	margin-top: 204px;
+	float: left;}
+	
+.bannermid{
+    margin-top: 62px;
+    float: left;
+    margin-left: 52px;
+ }
+.bannermid img {
+ 	margin-top: 114px;
+ }
+ .bannermid1{
+ 	position: absolute;
+ 	bottom: -42px;
+ }
+ .bannermid h2{
+ 	font-family: Verdana, Geneva, sans-serif;
+ 	font-size: 16px;
+ }
+ .bannermid p{
+ 	line-height: 26px;
+ }
+ .bannermide{
+	margin-top: 28px;
+	float: left;
+}
+
+.bannerright{
+	margin-top: 204px;
+	float: left;
+	
+}
+.banner div h2{
+	font-family:[ChunkFive][Roman];
+	font-size: 48px;
+}	
+.banner div p{
+	font-family: Times New Roman;
+	font-size: 18px;
+	width: 514px;
+}
+#seven{
+	height: 211px;
+	background-image: url(../images/ipadbgc123_03.png);
+	background-repeat: repeat;
+}
+#nav{width: 1078px;
+	height: 211px;
+	margin: 0 auto}
+#nav img{
+	padding-left: 421px;
+}
+#two{
+	height: 369px;
+	background-color:#232528;
+}
+ #main{
+ 	
+ 	width: 1078px;
+ 	height: 369px;
+ 	margin: 0 auto;}
+ #main h3{
+ 	font-size:18px;
+	font-family: Times New Roman;
+	color:white;
+	margin-top: 45px;
+	margin-bottom: 40px;
+}
+#main p {
+	color:white;
+}
+.mainleft{
+ 	float: left;
+	width: 558px;
+	height: 243px;
+	margin-left: 80px;
+	margin-right: 36px:;
+ }
+
+ .mainz{font-family:Times New Roman;
+		font-size :16px;
+		line-height: 24px;
+}
+.mainp{
+	margin-top:35px;
+	font-family:Times New Roman;
+	font-size:16px;
+}
+.mainright{
+ 	float: left;
+ 	margin-right: 96px;
+ }
+.mainright span{
+	color:#333333;
+}
+.mainright p{
+	margin-top: 32px;
+	background-image: url(../images/ipadmainright_36.png);
+	background-repeat: no-repeat;
+	background-position:left center;
+	width: 242px;
+	height: 60px;
+	padding-left: 80px;
+	font-size: 15px ;
+	font-family:Times New Roman;
+	line-height: 30px;
+	}
+
+#four{height: 90px;
+       background-color:#1a1a1a;}
+ #footer{
+ 	
+	width: 1078px;
+	height: 90px;
+	font-family: Arial;
+	font-size:14px;
+    margin: 0 auto;
+    background-color: #1a1a1a;}
+ #footer li{
+	float: left;
+	color:white;
+	list-style: none;
+	margin-right: 16px;
+	line-height: 90px;
+}
+ #footer p {
+	float: left;
+	color :white;
+	margin-right: 202px;
+	line-height: 90px;
+	margin-left: 80px;
+}	

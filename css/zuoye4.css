@@ -1,0 +1,223 @@
+*{margin: 0;padding: 0;
+  }
+
+
+#one{height: 7px;
+	background-image: url(../images/zuoye4bgcone_02.png);
+	background-repeat: repeat;}
+.leader{
+	height: 7px;
+	width: 994px;
+    margin:0 auto;
+ }
+#two{
+	height: 144px;
+	background-color:#000000;}
+.top{width: 994px;
+     height: 144px;
+     margin:0 auto;}
+.top img{display: block;
+         float: left;
+         margin-right: 42px;}
+.top span{color:#cc2700;}
+.top li{
+	list-style: none;
+	float: left;
+	color:#666969;
+	padding-left: 28px;
+	line-height: 144px;
+	font-size: 11px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+#three{height: 348px;
+	   background-color:#0f1010;
+
+}
+.banner{
+	width:994px;
+	height:348px;
+	margin:0 auto;
+	position:relative;
+	
+}
+.banner .bannerleft{
+	float: left;
+	 width: 590px;
+	 
+}
+.bannerleft img{
+	display:block;
+	margin-left: 29px;
+}
+.banner h2{
+	color: white;
+    padding-top: 64px;
+    font-size: 22px;
+    width: 590px;}
+.banner a{
+    
+	color: #cc2700;
+} 
+.banner p{
+	color:#666969;
+    padding-left: 29px;
+  
+    padding-bottom: 26px;	
+   
+    line-height: 22px;
+    font-size: 11px;
+    font-family:Tahoma, Geneva, sans-serif;}
+
+} 
+
+
+.pic{
+ position: absolute;
+ right: 26px;
+    top: 41px;
+
+
+ }
+#four{
+	height: 894px;
+	background-color:#1c1e1e;
+}
+#main{
+	width: 994px;
+    height: 895px;
+    margin: 0 auto;}
+.maintop img{
+	padding-top: 39px;
+   padding-left: 20px;}
+.maincenter{
+   width: 994px;
+   height: 335px;
+   border-bottom: 1px dotted #3c3d3d;
+
+
+   }
+h2{
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 29px;
+	padding-left: 31px;
+	font-size: 25px;
+}
+.mainleft{width: 650px;
+}
+.mainleft span{color: white;}
+.mainleft img{
+	float: left;
+	padding-left: 29px;
+	padding-right: 21px;
+} 
+.size {width: 540px;
+       float: left;
+       height: 250px;
+   }
+.size p{
+	font-size: 10px;
+	font-family:Verdana, Geneva, sans-serif;
+	line-height: 24px;
+	color:#666969;
+	margin-right: 20px;
+}
+.pictures{
+	margin-left: -29px;
+	margin-bottom: 31px;
+    margin-top: 29px;
+   
+}
+
+.mainright{float: left;
+	      margin-top:-60px;
+          }
+.mainright img{padding-left: 24px;}
+
+.mainright ul{width: 279px;
+        margin-left: 21px;
+     }
+.mainright li{
+    margin-left: 20px;
+    padding-left: 7px;
+	list-style: none;
+	color: white;
+	font-size: 11px;
+	line-height: 34px;
+	font-family:Tahoma, Geneva, sans-serif ;
+	border-bottom: 1px dotted #3c3d3d;
+	background-image: url(../images/zuoye4xiaosanjiao_07.png);
+	background-repeat: no-repeat;
+   background-position: left center;
+}
+.mainright .chuqu{border-bottom: none;}
+
+.mainbottom{
+	width: 994px;
+	height: 328px;
+	float: left;}
+.mainbottom img{
+	display: block;
+	float: left;
+   margin-top: 30px;}
+#meil{margin-left: 29px;}
+
+#xiaochu{
+	   clear: both;
+      margin-left:111px;
+      margin-top: 30px;}
+
+.zuo{float: left;
+	width: 352px;
+    height: 319px;
+     }
+.zuo img {
+	margin-right: 21px;}
+.you{
+	width: 298px;
+	height: 167px;
+	 color: #7f7f7f;
+     padding-top: 30px;
+	float: left;
+	font-size: 12px;
+	line-height: 25px;
+	font-family:Tahoma, Geneva, sans-serif
+}
+span{color: white;}
+
+.mainbottom4{float:right;
+	width: 344px;}
+.mainbottom4 img {
+	padding-left: 21px;
+}
+	
+#six{
+	height: 151px;
+	background-color:#101111;}
+#footer{
+	height: 151px;
+	width: 994px;
+	margin: 0 auto;
+}
+.footerleft{width: 752px;
+float: left;}
+
+.footerleft ul{
+	width: 752px;
+	text-align: center;
+	padding-top: 38px
+
+}
+.footerleft a {color: #cc2700;}
+.footerleft li{
+	list-style: none;
+	color:#7b7f7f;
+	padding-top: 11px;
+	font-size: 8px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+.footerright{width: 242px;
+margin-left: 752px;
+padding-top: 50px;
+
+

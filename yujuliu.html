@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" value="" class="one">
+	<input type="text" value="" class="two">
+	<input type="text" value="" class="three">
+	<input type="text" value="" class="four">
+	<input type="button" value="提交" class="five">
+	<script src="js/jquery-1.11.1.js">	</script>
+	<script>
+	// $(".five").click(function(){
+ //     var num1=Number($(".one").val())
+ //     var num2=Number($(".three").val())
+ //     var num3=$(".two").val()
+ //     var result=0;
+ //     switch(num3){
+ //          case "+":result=num1+num2;break;
+ //          case "-":result=num1-num2;break;
+ //          case "*":result=num1*num2;break;
+ //          case "/":result=num1/num2;break;
+ //     }
+     // if (num3=="+"){
+     // 	result =num1+num2
+     // 	}
+     // else if(num3=="-"){
+
+     // 	result=num1-num2
+     // }
+     // else if(num3=="/"){
+
+     // 	result=num1/num2
+     // }
+
+     // else if(num3=="*"){
+
+     // 	result=num1*num2
+     // }
+$(".five").click(function(){
+     var num1=Number($(".one").val())
+     var num2=Number($(".three").val())
+     var num3=$(".two").val()
+     var result=0;
+     function count(num1,num2,num3){
+          switch(num3){
+               case "+":result=num1+num2;break;
+               case "-":result=num1-num2;break;
+               case "*":result=num1*num2;break;
+               case "/":result=num1/num2;break;
+           }
+           return;result
+           }     
+          count(num1,num2,num3);
+          $(".four").val(result)
+     })
+          	     
+
+               
+
+
+
+
+
+	</script>
+</body>
+</html>

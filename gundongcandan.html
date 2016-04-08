@@ -1,0 +1,57 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	*{margin: 0;padding: 0;}
+	ul{list-style: none;
+		height: 100px;
+		overflow: hidden;}
+	.one{
+		float: left;
+		
+		list-style: none;
+		margin-left: 20px;
+	 background-color: red;
+	 width: 200px;
+	 height: 200px;
+	line-height: 100px;}
+	
+.two{width: 200px;height: 100px;
+      
+      background-color:blue;
+    }
+    .three{width: 200px;height: 100px;
+      
+      background-color:pink;
+    }
+
+	</style>
+</head>
+<body>
+	<ul>
+		<li class="one">
+			<div class="two">电影</div>
+			<div class="three">电影</div>
+		</li>
+		<li class="one">
+			<div class="two">电影</div>
+			<div class="three">电影</div>
+		</li><li class="one">
+			<div class="two">电影</div>
+			<div class="three">电影</div>
+		</li>
+	
+	</ul>
+	<script  src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript"> 
+    $(".one").mouseenter(function() {
+    	$(this).stop().animate({"margin-top":"-100px"},300)
+    		}).mouseleave(function() {
+    	$(this).stop().animate({"margin-top":"0"},300)
+    		})
+        
+	</script>
+</body>
+</html>
