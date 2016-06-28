@@ -1,0 +1,183 @@
+@font-face{
+    font-family:aaa;
+    src:url(fonts/STHeiti-Light.ttc);
+}
+*{margin: 0;padding: 0;
+    font-family:aaa;
+}
+@font-face {font-family: 'iconfont';
+    src: url('iconfont.eot'); /* IE9*/
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont.woff') format('woff'), /* chrome、firefox */
+    url('iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.yin{
+     position: relative;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+    display: none;
+
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+.clearfix:before,.clearfix:after{display:block;content:"";}
+	.clearfix:after{clear:both;};
+	.clearfix:{zoom:1;}
+.top{
+    height: 0.88rem;
+    background-color:#66cccc;
+    position:relative;
+}
+.top i{
+    margin-left: 0.29rem;
+    font-size: 0.54rem;
+    line-height: 0.88rem;
+    color:white;
+    float: left;
+}
+.p1{
+    font-size: 0.28rem;
+    color:white;
+    padding-top: 0.1rem;
+    float: left;
+}
+.p2{
+    font-size: 0.18rem;
+    color:white;
+    margin-left:2.2rem;
+    float: left;
+}
+.iconfont{
+    clear: both;
+    position: absolute;
+    right: 0.13rem;
+    font-size:0.12rem;
+}
+.aside{
+    margin-top: 0.17rem;
+    clear: both;
+    height:1.68rem;
+}
+.aside img{
+    display: block;
+    width: 1.8rem;
+    float: left; 
+}
+.rig{
+    width: 4.47rem;
+    float: left;
+    padding-left: 0.13rem;
+}
+.pa{
+    font-size:0.22rem;
+    
+}
+.pb{
+    font-size:0.22rem;
+
+}
+.pc{
+    font-size:0.18rem;
+    color:#cccccc;
+}
+.rig img{
+    display: block;
+    float: left;
+    margin-right: 0.06rem;
+    height: 0.37rem; 
+    width: 0.29rem; 
+    margin-top: 0.14rem;
+
+}
+.p4{
+    font-size: 0.18rem;
+    float: left;
+    line-height: 0.2rem;
+    margin-top:0.20rem;
+}
+.p5{
+     margin-top:0.2rem;
+    color:#ff9933;
+    font-size:0.21rem;
+    float: right;
+}
+footer{
+    border-top: 1px solid #cccccc;
+    height: 0.99rem;
+}
+
+.gjy img{
+    display: block;
+    width:0.51rem;
+    height: 0.51rem;
+    padding-top: 0.1rem;
+    margin-left: 0.08rem;
+    padding-bottom: 0.13rem;
+}
+.gjy li{
+    list-style: none;
+    float: left;
+}
+.gjy p{
+    font-size: 0.2rem;
+}
+.li1{
+    margin-left: 0.28rem;
+}
+.li2,.li3,.li4{
+    margin-left: 0.83rem;
+}
+.zn{ 
+    color:#50dbdb;
+}
+.xuanze{
+    display: none;
+    position: absolute;
+    top:5rem;
+}
+.xuantop{
+    height: 0.7rem;
+    background-color: #50dbdb;
+}
+.xuantop p{
+    font-size: 0.24rem;
+    color: white;
+    padding-top: 0.15rem;
+    float: left;
+}
+.btnleft{
+    width: 1.95rem;
+    float: left;
+    padding-bottom: 1.4rem;
+    background-color: #f5f5f5;
+}
+.btnleft li{
+    text-align: center;
+    line-height: 0.69rem;
+    font-size: 0.24rem;
+}
+.btnright,.btnright1,.btnright2{
+    background-color:white;
+     width: 4.13rem;
+     padding-left: 2.14rem;
+}
+.btnright li,.btnright1 li,.btnright2 li{
+   padding-left: 0.62rem;
+    border-bottom: 0.01rem solid #999999;
+    font-size: 0.24rem;
+    line-height: 0.69rem;
+}
+.btnright li label{
+    margin-left: 2.5rem;
+}

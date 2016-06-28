@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	div{
+		width: 200px;
+		height: 200px;
+		background-color:red;
+		margin-top: 100px
+	}
+	@keyframes myfirst
+	{
+	from {background: red;margin-top: 100px;}
+	to {background: yellow;margin-top: 200px;}
+	}
+
+	@-webkit-keyframes myfirst /* Safari and Chrome */
+	{
+	from {background: red;margin-top: 100px;}
+	to {background: yellow;margin-top: 200px;}
+	}
+	div
+	{
+	animation: myfirst 5s;
+	-webkit-animation: myfirst 5s; /* Safari and Chrome */
+} 
+
+	</style>
+
+</head>
+<body>
+<div></div>
+	
+</body>
+</html>
